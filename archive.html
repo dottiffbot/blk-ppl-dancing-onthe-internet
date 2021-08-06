@@ -36,10 +36,8 @@
     <script src="./script.js" defer></script>
   </head>
   <body>
-  <video  playsinline autoplay muted loop id="video-bg">
-            <source src="https://cdn.glitch.com/039decf5-b783-4bb1-8c23-f6aa9c13e1b2%2FSkyAndCloudsh264.mp4?v=1626890284406">
-          </video>
- 
+    <div id="video-bg">
+ </div>
 
    <header>
      <div class="back">
@@ -48,58 +46,46 @@
   </a>
       </div>
    </header>
-<main>
-  <section class="cont">
-  <ul class="archive-grid">
+<main class="grid-container">
+  
+<ul class="archive-grid">
  <li class="videoPlayer">
-  <video class="video-item square" data-open = "pop1">
-    <source src="./assets/posts/one.mp4" type="">
-  </video>
+
+  <img src="./assets/post-stills/1.png" data-open = "pop1">
  </li>
  <li class="videoPlayer">
-     <video   class="video-item wideVid" data-open="pop2">
-    <source src="./assets/posts/five.mp4" type="">
-  </video>
+  <img src="./assets/post-stills/5.png" data-open="pop2">
  </li>
 
  <li class="videoPlayer">
-    <video class="video-item square" data-open="pop3" height="300px">
-    <source src="./assets/posts/ten.mp4" type="">
-  </video>
+
+  <img src="./assets/post-stills/10.png" data-open="pop3" height="400px">
  </li>
 
  <li class="videoPlayer">
-     <video class="video-item square" data-open="pop4">
-    <source src="./assets/posts/eleven.mp4" type="">
-  </video>
+
+  <img src="./assets/post-stills/11.png" data-open="pop4">
  </li>
 
  <li class="videoPlayer">
-    <img src="./assets/posts/twelve.jpg" class="video-item square" data-open="pop5"> 
+    <img src="./assets/posts/twelve.jpg" class="video-item smallVid" data-open="pop5"> 
  </li>
 
  <li class="videoPlayer">
-     <video class="video-item wideVid" data-open="pop6">
-    <source src="https://cdn.glitch.com/039decf5-b783-4bb1-8c23-f6aa9c13e1b2%2Ffourteen.mp4?v=1627855212839" type="">
-  </video>
+ 
+  <img src="./assets/post-stills/14.png" data-open="pop6">
  </li>
 
  <li class="videoPlayer">
-     <video  class="video-item wideVid" data-open="pop7">
-    <source src="./assets/posts/eighteen.mp4" type="">
-  </video>
+  <img src="./assets/post-stills/18.png" data-open="pop7" height="400px">
  </li>
 
  <li class="videoPlayer">
-     <video class="video-item wideVid" data-open="pop8">
-    <source src="./assets/posts/nineteen.mp4" type="">
-  </video>
+  <img src="./assets/post-stills/19.png" data-open="pop8">
  </li>
 
  <li class="videoPlayer">
-     <video  class="video-item wideVid" data-open="pop9">
-    <source src="./assets/posts/nine.mp4" type="">
-  </video>
+  <img src="./assets/post-stills/9.png" data-open="pop9">
  </li>
 
 <li class="videoPlayer">
@@ -109,42 +95,43 @@
 
 <li class="videoPlayer">
   <div class="about-folder">
-  <a href="./about-video.html"> <img class="video-item square" src="./assets/folder-crop.png"></a>
+  <a href="./about-video.html"> <img id="folder" class="video-item square" src="./assets/folder-crop.png"></a>
   <p>
     about
   </p>
 </div>
 </li>
 </ul>
-</section>
+
 
 <div class="popup" id="pop1">
-  <div class="close" data-close="pop1">(x)</div>
+  <div class="close" data-close="pop1">x</div>
   <div class="entry-container">
-    <div class="entry">
-      <video playsinline controls width="500px"> <source src="./assets/posts/one.mp4"></video>
+    <div class="entry video-edition">
+      <video playsinline controls> <source src="./assets/posts/one.mp4"></video>
     </div>
     <div class="entry-info">
       <h1 class="entry-text">
         1 of 92
       </h1>
       <p class="description">
-           <span class="sub">VIDEO DESCRIPTION</span>
+           <span class="sub">VIDEO DESCRIPTION:</span>
+           <br>
            <br>
         Black person in an office space on a wood floor in a contorted/crawling-like position. The person's face is blurred in motion and their head is in rotation. Video posted on YouTube as “Guy Looks Scary As He Bends in Weird Positions” to shape this body as absurd.
         <br>
 But I see an opening.
       </p>
-      <a href="https://www.instagram.com/p/CPoJ4LaBKt1/" target="_blank"><img src="./assets/link.png" width="75px"></a>
+      <a href="https://www.instagram.com/p/CPoJ4LaBKt1/" target="_blank"><img src="./assets/link.png" width="80px"></a>
     </div>
   </div>
 </div>
 
 <div class="popup" id="pop2">
-  <div class="close" data-close="pop2">(x)</div>
+  <div class="close" data-close="pop2">x</div>
   <div class="entry-container">
-    <div class="entry">
-      <video playsinline controls width="800px">
+    <div class="entry video-edition">
+      <video playsinline controls>
             <source src="./assets/posts/five.mp4" type="">
       </video>
     </div>
@@ -153,21 +140,22 @@ But I see an opening.
         5 of 92
       </h1>
       <p class="description">
-           <span class="sub">VIDEO DESCRIPTION</span>
+           <span class="sub">VIDEO DESCRIPTION:</span>
+           <br>
            <br>
   A large group of mostly Black people are gathered in an outside concert like space. They are dancing jubilantly to a bass heavy house track.
       </p>
-      <a href="https://www.instagram.com/p/CPyylLLhf-g/" target="_blank"><img src="./assets/link.png" width="75px"></a>
+      <a href="https://www.instagram.com/p/CPyylLLhf-g/" target="_blank"><img src="./assets/link.png" width="80px"></a>
     </div>
   </div>
 </div>
 
 <div class="popup" id="pop3">
-  <div class="close" data-close="pop3">(x)</div>
+  <div class="close" data-close="pop3">x</div>
   <div class="entry-container">
-    <div class="entry">
-      <video playsinline controls width="500px" height="600px">
-           <source src="./assets/posts/ten.mp4" type="">
+    <div class="entry video-edition">
+      <video playsinline controls>
+           <source src="./assets/posts/ten.mp4" type="" height="400px">
       </video>
     </div>
     <div class="entry-info">
@@ -175,20 +163,21 @@ But I see an opening.
         10 of 92
       </h1>
       <p class="description">
-           <span class="sub">VIDEO DESCRIPTION</span>
+           <span class="sub">VIDEO DESCRIPTION:</span>
+           <br>
            <br>
    Soundless video of a Black person moving, rolling their hips and ass in a flowing blue dress, zoomed in only their lower half is visible. The wavy pattern of the dress in motion reminds me of waves.
       </p>
-      <a href="https://www.instagram.com/p/CQXoHZAhpJV/" target="_blank"><img src="./assets/link.png" width="75px"></a>
+      <a href="https://www.instagram.com/p/CQXoHZAhpJV/" target="_blank"><img src="./assets/link.png" width="80px"></a>
     </div>
   </div>
 </div>
 
 <div class="popup" id="pop4">
-  <div class="close" data-close="pop4">(x)</div>
+  <div class="close" data-close="pop4">x</div>
   <div class="entry-container">
-    <div class="entry">
-      <video playsinline controls width="600px">
+    <div class="entry video-edition">
+      <video playsinline controls>
           <source src="./assets/posts/eleven.mp4" type="">
       </video>
     </div>
@@ -197,17 +186,18 @@ But I see an opening.
         11 of 92
       </h1>
       <p class="description">
-           <span class="sub">VIDEO DESCRIPTION</span>
+           <span class="sub">VIDEO DESCRIPTION:</span>
+           <br>
            <br>
         Black person making screaming faces outside without making noise from their mouth and slightly moving their body. The background is the blue sky.
       </p>
-      <a href="https://www.instagram.com/p/CQXoN4zB6FQ/" target="_blank"><img src="./assets/link.png" width="75px"></a>
+      <a href="https://www.instagram.com/p/CQXoN4zB6FQ/" target="_blank"><img src="./assets/link.png" width="80px"></a>
     </div>
   </div>
 </div>
 
 <div class="popup" id="pop5">
-  <div class="close" data-close="pop5">(x)</div>
+  <div class="close" data-close="pop5">x</div>
   <div class="entry-container">
     <div class="entry">
      <img src="./assets/posts/twelve.jpg" width="500px">
@@ -217,20 +207,21 @@ But I see an opening.
         12 of 92
       </h1>
       <p class="description">
-           <span class="sub"> IMAGE DESCRIPTION</span>
+           <span class="sub"> IMAGE DESCRIPTION:</span>
+           <br>
            <br>
  A blurry photo of a Black person. The image does not move but it looks like the person had been moving. The person might have been telling a story. Possibly outside when it was dark.
       </p>
-      <a href="https://www.instagram.com/p/CQXoTqrFcmq/" target="_blank"><img src="./assets/link.png" width="75px"></a>
+      <a href="https://www.instagram.com/p/CQXoTqrFcmq/" target="_blank"><img src="./assets/link.png" width="80px"></a>
     </div>
   </div>
 </div>
 
 <div class="popup" id="pop6">
-  <div class="close" data-close="pop6">(x)</div>
+  <div class="close" data-close="pop6">x</div>
   <div class="entry-container">
-    <div class="entry">
-      <video playsinline controls width="800px">
+    <div class="entry video-edition">
+      <video playsinline controls>
    <source src="./assets/posts/fourteen.mp4">
       </video>
     </div>
@@ -239,20 +230,21 @@ But I see an opening.
         14 of 92
       </h1>
       <p class="description">
-       <span class="sub">VIDEO DESCRIPTION</span>
+       <span class="sub">VIDEO DESCRIPTION:</span>
+       <br>
        <br>
         Black person moving playfully with a thick black coat around their head and arms. They move both the coat and their body for a minute and 3 seconds.
       </p>
-      <a href="https://www.instagram.com/p/CQYB8YMhk1v/" target="_blank"><img src="./assets/link.png" width="75px"></a>
+      <a href="https://www.instagram.com/p/CQYB8YMhk1v/" target="_blank"><img src="./assets/link.png" width="80px"></a>
     </div>
   </div>
 </div>
 
 <div class="popup" id="pop7">
-  <div class="close" data-close="pop7">(x)</div>
+  <div class="close" data-close="pop7">x</div>
   <div class="entry-container">
-    <div class="entry">
-      <video playsinline controls width="800px">
+    <div class="entry video-edition">
+      <video playsinline controls>
        <source src="./assets/posts/eighteen.mp4" type="">
       </video>
     </div>
@@ -261,21 +253,22 @@ But I see an opening.
         18 of 92
       </h1>
       <p class="description">
-        <span class="sub">VIDEO DESCRIPTION</span>
+        <span class="sub">VIDEO DESCRIPTION:</span>
+        <br>
         <br>
         A Black dancer is on stage in a white shirt. They are also wearing black pants with electric green stripes on the side. The pants read in red “ONLY. STAFF.” The lights hanging from the sky match the energy of the dancer and their outfit. 
       </p>
-      <a href="https://www.instagram.com/p/CRPQwtUBeVi/" target="_blank"><img src="./assets/link.png" width="75px"></a>
+      <a href="https://www.instagram.com/p/CRPQwtUBeVi/" target="_blank"><img src="./assets/link.png" width="80px"></a>
     </div>
   </div>
 </div>
 
 
 <div class="popup" id="pop8">
-  <div class="close" data-close="pop8">(x)</div>
+  <div class="close" data-close="pop8">x</div>
   <div class="entry-container">
-    <div class="entry">
-      <video playsinline controls width="800px">
+    <div class="entry video-edition">
+      <video playsinline controls>
      <source src="./assets/posts/nineteen.mp4" type="">
       </video>
     </div>
@@ -284,11 +277,12 @@ But I see an opening.
         19 of 92
       </h1>
       <p class="description">
-           <span class="sub">VIDEO DESCRIPTION</span>
+           <span class="sub">VIDEO DESCRIPTION:</span>
+           <br>
            <br>
 What those hands sound like? Black clapping hand emoji does not move. There is music in the background for 40 seconds.
       </p>
-      <a href="https://www.instagram.com/p/CRQEpYIB09u/" target="_blank"><img src="./assets/link.png" width="75px"></a>
+      <a href="https://www.instagram.com/p/CRQEpYIB09u/" target="_blank"><img src="./assets/link.png" width="80px"></a>
 
     </div>
   </div>
@@ -296,10 +290,10 @@ What those hands sound like? Black clapping hand emoji does not move. There is m
 
 
 <div class="popup" id="pop9">
-  <div class="close" data-close="pop9">(x)</div>
+  <div class="close" data-close="pop9">x</div>
   <div class="entry-container">
-    <div class="entry">
-      <video playsinline controls width="800px">
+    <div class="entry video-edition">
+      <video playsinline controls>
      <source src="./assets/posts/nine.mp4" type="">
       </video>
     </div>
@@ -308,17 +302,18 @@ What those hands sound like? Black clapping hand emoji does not move. There is m
         9 of 92
       </h1>
            <p class="description">
-               <span class="sub">VIDEO DESCRIPTION</span>
+               <span class="sub">VIDEO DESCRIPTION:</span>
+               <br>
                <br>
        Features heads and arms of a large group of Black people dancing, some wearing hats and durags. Many of them dance with arms raised and hands splayed in the air. They are in space that is surrounded by trees, which frame the top of their heads.
       </p>
-      <a href="https://www.instagram.com/p/CQCvu4ZhTt6/" target="_blank"><img src="./assets/link.png" width="75px"></a>
+      <a href="https://www.instagram.com/p/CQCvu4ZhTt6/" target="_blank"><img src="./assets/link.png" width="80px"></a>
     </div>
   </div>
 </div>
 
 <div class="popup" id="pop10">
-  <div class="close" data-close="pop10">(x)</div>
+  <div class="close" data-close="pop10">x</div>
   <div class="entry-container">
     <div class="entry">
       <img src="./assets/posts/twenty-two-one.png" width="300px">
@@ -331,11 +326,12 @@ What those hands sound like? Black clapping hand emoji does not move. There is m
         22 of 92
       </h1>
       <p class="description">
-    <span class="sub">IMAGE DESCRIPTION</span>
+    <span class="sub">IMAGE DESCRIPTION:</span>
+    <br>
     <br>
 Four tiles with black backgrounds, white wavy arial letters forming words (glide - jerk - pop - lean) that voice, command, instruct, suggest. How you do that?
       </p>
-         <a href="https://www.instagram.com/p/CRSKyrSl0Wb/"><img src="./assets/link.png" width="75px"></a>
+         <a href="https://www.instagram.com/p/CRSKyrSl0Wb/" target="_blank"><img src="./assets/link.png" width="80px"></a>
     </div>
   </div>
 </div>
@@ -349,5 +345,6 @@ Four tiles with black backgrounds, white wavy arial letters forming words (glide
 
 </main>
  <script type="text/javascript" src="./popup.js"></script>
+ <script type="text/javascript" src="./background.js"></script>
   </body>
 </html>

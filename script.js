@@ -1,5 +1,4 @@
-
-const items = document.querySelectorAll('.video-item')
+/*const items = document.querySelectorAll('.video-item')
 
 items.forEach(item =>{
 	
@@ -9,7 +8,7 @@ items.forEach(item =>{
 	item.style.width = randomSize + "px"
 
 		 console.log(randomSize)
-})
+}) */
 
 const list = document.querySelector('ul')
 
