@@ -45,7 +45,7 @@ body{
   font-family: Arial, sans-serif;
   color: #3C3675; 
   overflow-x: hidden;
-
+  object-fit: cover;
 }
 
 .noscroll{
@@ -103,7 +103,6 @@ footer{
   position: absolute;
   right: 0;
   bottom: 0;
-  font-family: monospace;
   padding: 2rem;
 }
 
@@ -351,7 +350,7 @@ margin-right: 2em;
 
 grid-template-columns: 4fr 2fr 2fr 2fr 1fr 2fr 2fr;
 padding: 0 4em 4em;
-max-height: 70vh;
+max-height: 100vh;
 max-width: 70vw;
 margin: 1em auto;
 
@@ -361,7 +360,7 @@ margin: 1em auto;
   object-fit: cover;
   margin-top: 1em;
 
-  z-index: 3;
+z-index: 3;
 
 }
 
@@ -640,6 +639,23 @@ filter: drop-shadow(0 0 8px #5797F7);
   width: 50px;
 }
 
+#tall{
+  height:50vh;
+  width: 50vw;
+}
+
+.pics{
+  display: flex;
+  flex-direction: column;
+}
+
+.row1,
+.row2{
+  display: flex;
+  flex-direction: row;
+}
+
+
 
 *{
 cursor: url(https://cdn.glitch.com/039decf5-b783-4bb1-8c23-f6aa9c13e1b2%2Fpoint-cur.png?v=1626913185240), auto !important;
@@ -687,4 +703,168 @@ font-size: 1.5em;
   overflow-y: scroll;
 }
 }
+@media only screen and (max-width: 500px){
 
+  body{
+    overflow-x: hidden;
+    background-image: url(./assets/clouds.jpg);
+  }
+
+  #video-bg{
+    visibility: hidden;
+  }
+
+  header{
+    z-index: 6;
+    position: fixed;
+  }
+
+  .archive-grid{
+  display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+   grid-gap: 1em;
+   margin-top: 3em;
+  }
+
+
+/* guy bent */
+.archive-grid li:nth-child(1){
+
+  grid-row: 1 / span 1;
+  grid-column: 1 / span 1;
+  z-index: 6;
+
+}
+
+li:nth-child(1) img{
+  max-width: 200px;
+}
+
+/*crowd of people dancing */
+.archive-grid li:nth-child(2){
+
+ 
+  grid-row: 2 / span 1;
+  grid-column: 1/ span 1;
+  
+}
+
+li:nth-child(2) img {
+  max-width: 200px;
+}
+
+/*person's butt*/
+.archive-grid li:nth-child(3){
+  grid-row: 3 / span 1;
+  grid-column:  1 / span 1;
+}
+
+li:nth-child(3) img {
+  max-width: 200px;
+}
+
+/*NIC blue sky */
+.archive-grid li:nth-child(4){
+  grid-row: 4 / span 1;
+  grid-column:  1 / span 1;
+}
+
+li:nth-child(4) img {
+  max-width: 200px;
+}
+
+/*blurry guy pic*/
+.archive-grid li:nth-child(5){
+  grid-row: 5 / span 1;
+  grid-column:  1 / span 1;
+}
+
+li:nth-child(5) img {
+  max-width: 200px;
+}
+
+
+/* NIC dancing wall*/
+.archive-grid li:nth-child(6){
+
+  grid-row: 6 / span 1;
+  grid-column: 1 / span 1;
+
+}
+
+li:nth-child(6)  img{
+  max-width: 200px;
+}
+/* young guy dancing crowd */
+.archive-grid li:nth-child(7){
+  grid-row: 7 / span 1;
+  grid-column:  1/ span 1;
+  z-index: 2;
+
+}
+
+li:nth-child(7)  img{
+  max-width: 200px;
+}
+
+/*hand emoji */
+.archive-grid li:nth-child(8){
+  grid-row: 8/ span 1;
+  grid-column:  1 / span 1;
+  
+}
+li:nth-child(8)  img{
+  max-width: 200px;
+}
+
+/*similar crowd of ppl dancing, more trees */
+.archive-grid li:nth-child(9){
+  grid-row: 9 / span 1;
+  grid-column: 1/ span 1;
+  z-index: 2;
+
+}
+
+li:nth-child(9) img{
+ max-width: 200px;
+}
+
+/*.archive-grid li:nth-child(9):hover{
+  z-index: 7;
+}*/
+
+/* glide */
+.archive-grid li:nth-child(10){
+  grid-row: 10 / span 1;
+  grid-column: 1/ span 1;
+}
+
+li:nth-child(10) img{
+  max-width: 200px;
+}
+
+
+/*folder*/
+.archive-grid li:nth-child(11){
+  grid-row: 11 / span 1;
+  grid-column: 1 / span 1;
+}
+li:nth-child(10) img{
+  max-width: 200px;
+}
+
+.row1,
+.row2{
+  display: flex;
+  flex-direction: column;
+}
+
+
+#backButton{
+  width: 70px;
+}
+#nextButton{
+  width:70px;
+}
+
+}

@@ -16,8 +16,6 @@ sunIcon.src = dayIcon
 const moonIcon = document.createElement('img')
 moonIcon.src = nightIcon
 
-
-
 const sunny = document.createElement('video')
 
 	    sunny.src = dayVideo
@@ -29,6 +27,8 @@ const starry = document.createElement('video')
 		starry.autoplay = true
 		starry.loop = true
 
+
+const mediaQuery = window.matchMedia(('min-width:600px'))
 
 
 
@@ -47,6 +47,20 @@ const changeBg = function(){
 	}
 }
 
+const checkSize = function (){
+	if(mediaQuery.matches && hours && hours < 20 ){
+		document.body.style.backgroundImage = "url('./assets/clouds.jpg')"
+		videobg.style.visibility = "none"
+	} else if (mediaQuery.matches) {
+		document.body.style.backgroundImage = "url('./assets/starry-sky.jpg')"
+		videobg.style.display = "none"
+	}
+}
+
+
+checkSize()
+
 setInterval(function(){
 	changeBg()
+	
 }, 1000)

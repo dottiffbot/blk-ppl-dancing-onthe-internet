@@ -90,7 +90,7 @@ ol{
   align-items: center;
   position: relative;
   margin: 3em 20%;
-  padding: 0;
+  padding-top: 2em;
 
 
 }
@@ -144,10 +144,12 @@ max-width: 40vw;
 
 body{
 
+  object-fit: cover;
+  background-image: url(./assets/clouds.jpg);
 }
 
 #video-bg{
-
+display: none;
 }
 .aboutGrid{
   display: flex;
@@ -182,9 +184,8 @@ body{
 }
 
 header{
-  margin: 0;
+  margin: 0 1em;
 }
-
 
 
 
