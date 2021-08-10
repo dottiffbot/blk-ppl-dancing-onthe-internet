@@ -49,10 +49,6 @@ body{
   object-fit: cover;
 }
 
-html{
-  overflow-x: hidden;
-}
-
 .noscroll{
   overflow: hidden;
 }
