@@ -698,9 +698,9 @@ font-size: 1.5em;
     height: 100%;
     width: 100%;
 }
-
-.noscroll{
+.popup{
   overflow-y: scroll;
+  overflow-x: hidden;
 }
 }
 @media only screen and (max-width: 500px){
@@ -708,6 +708,10 @@ font-size: 1.5em;
   body{
     overflow-x: hidden;
     background-image: url(./assets/clouds.jpg);
+  }
+
+  .noscroll{
+    overflow-y: scroll;
   }
 
   #video-bg{
