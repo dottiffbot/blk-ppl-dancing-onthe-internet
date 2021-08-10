@@ -49,6 +49,10 @@ body{
   object-fit: cover;
 }
 
+html{
+  overflow-x: hidden;
+}
+
 .noscroll{
   overflow: hidden;
 }
@@ -544,7 +548,7 @@ li:nth-child(10) img{
   background-color: rgba(0, 0 ,0, 0.95);
   min-width: 100vw;
   min-height: 100vh;
-  position: fixed;
+  position: absolute;
   overflow-y: scroll;
   top:0;
   left: 0;

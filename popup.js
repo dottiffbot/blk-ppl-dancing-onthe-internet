@@ -16,6 +16,7 @@ function togglePop(){
   const popId = this.dataset.open
   document.getElementById(popId).classList.toggle("open")
   body.classList.add('noscroll')
+  document.html.add('noscroll')
   window.scrollTo(0,0)
 
   
@@ -25,6 +26,8 @@ function closePop(){
   const popId = this.dataset.close
   document.getElementById(popId).classList.toggle("open")
   body.classList.remove('noscroll')
+   document.html.remove('noscroll')
+
 }
 
 
