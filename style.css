@@ -867,4 +867,14 @@ li:nth-child(10) img{
   width:70px;
 }
 
+#folderOne{
+  width: 300px;
+}
+
+
+.blkppl{
+  font-size: 0.45;
+  letter-spacing: 0;
+}
+
 }
