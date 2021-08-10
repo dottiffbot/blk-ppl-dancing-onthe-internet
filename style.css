@@ -38,6 +38,7 @@ body::-webkit-scrollbar-thumb{
 
 /* basic universal styles */ 
 
+
 body{
 
   margin: 0;
@@ -49,7 +50,7 @@ body{
 }
 
 .noscroll{
-  overflow:hidden;
+  overflow: hidden;
 }
 
 
@@ -112,6 +113,15 @@ footer{
   width: 50px;
 }
 
+#time{
+  font-size: 0.85em;
+}
+
+ .alt-button a{
+  padding: 1em;
+  margin-right: 1em;
+  text-decoration: none;
+}
 
 
 
@@ -164,7 +174,7 @@ width: 600px;
 filter:drop-shadow(1px 1px 10px white);
 animation: 4s bob ease-in infinite alternate;
 animation-delay: 0.1s;
-transition: 0.3s;
+transition:250ms all ease;
 
 }
 
@@ -534,8 +544,8 @@ li:nth-child(10) img{
   background-color: rgba(0, 0 ,0, 0.95);
   min-width: 100vw;
   min-height: 100vh;
-  overflow: scroll;
-  position: absolute;
+  position: fixed;
+  overflow-y: scroll;
   top:0;
   left: 0;
   display: flex;
@@ -668,9 +678,15 @@ cursor: url(https://cdn.glitch.com/039decf5-b783-4bb1-8c23-f6aa9c13e1b2%2Fpoint-
   margin: 50% 0;
 }
 
+.noscroll{
+  overflow-y: scroll;
+
+}
+
 .entry-container{
   flex-direction: column;
   text-align: center;
+  overflow-y: scroll;
 }
 
 .entry-info{
@@ -687,9 +703,6 @@ cursor: url(https://cdn.glitch.com/039decf5-b783-4bb1-8c23-f6aa9c13e1b2%2Fpoint-
   padding: 0 0.5em;
 }
 
-.body{
-  background-color: black;
-}
 
 .close{
 font-size: 1.5em;
@@ -698,7 +711,7 @@ font-size: 1.5em;
     height: 100%;
     width: 100%;
 }
-.popup{
+.popup .open{
   overflow-y: scroll;
   overflow-x: hidden;
 }
@@ -710,9 +723,6 @@ font-size: 1.5em;
     background-image: url(./assets/clouds.jpg);
   }
 
-  .noscroll{
-    overflow-y: scroll;
-  }
 
   #video-bg{
     visibility: hidden;
@@ -877,8 +887,11 @@ li:nth-child(10) img{
 
 
 .blkppl{
-  font-size: 0.45;
+  font-size: 0.85em;
   letter-spacing: 0;
+}
+.folder-holder:hover{
+  transform: scale(1);
 }
 
 }

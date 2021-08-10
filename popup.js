@@ -28,5 +28,3 @@ function closePop(){
 }
 
 
-
-// if the popup 
