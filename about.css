@@ -141,7 +141,7 @@ max-width: 40vw;
 }
 .night{
     object-fit: cover;
-    background-image: url(./assets/starry-sky.jpg);
+    background-image: url(./assets/stars.jpg);
 
 }
 #video-bg{
