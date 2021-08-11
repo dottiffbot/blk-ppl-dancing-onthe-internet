@@ -636,7 +636,6 @@ filter: drop-shadow(0 0 8px #5797F7);
 .video-edition::after{
   display: block;
   content: "";
-
 }
 
 .video-edition video{
@@ -898,3 +897,10 @@ li:nth-child(10) img{
 }
 
 }
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .video-edition{
+      max-width:70vw;
+    }
+}
+
