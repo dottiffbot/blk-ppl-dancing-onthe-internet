@@ -101,7 +101,7 @@ ol{
 
 footer{
   z-index: 3;
-  position: absolute;
+  position: fixed;
   right: 0;
   bottom: 0;
   padding: 2rem;
@@ -118,9 +118,11 @@ footer{
 }
 
  .alt-button a{
-  padding: 1em;
-  margin-right: 1em;
   text-decoration: none;
+}
+
+.alt-button a:hover{
+  filter: drop-shadow(1px 1px 4px blue);
 }
 
 
@@ -738,6 +740,7 @@ font-size: 1.5em;
    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
    grid-gap: 1em;
    margin-top: 3em;
+   height: 100%;
   }
 
 

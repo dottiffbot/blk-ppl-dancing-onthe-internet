@@ -6,13 +6,11 @@ body{
   font-family: Arial, sans-serif;
   color: #3C3675; 
   overflow-x: hidden;
+  overflow-y: scroll;
   background-color: black;
 
 }
 
-html{
-  overflow: hidden;
-}
 
 
 #video-bg{

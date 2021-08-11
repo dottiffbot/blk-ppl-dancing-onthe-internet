@@ -35,12 +35,11 @@ const changeBg = function(){
 	if (7 <= hours && hours < 20){
 	
 	videobg.appendChild(sunny)
-	iconCont.appendChild(sunIcon)
-		
+	
 	} else {
 
 		videobg.appendChild(starry)
-		iconCont.appendChild(moonIcon)
+	
 	
 	}
 }
