@@ -36,11 +36,13 @@ const changeBg = function(){
 	
 	videobg.appendChild(sunny)
 	iconCont.appendChild(sunIcon)
+	document.body.classList.add('day')
 		
 	} else {
 
 		videobg.appendChild(starry)
 		iconCont.appendChild(moonIcon)
+		document.body.classList.add('night')
 	
 	}
 }

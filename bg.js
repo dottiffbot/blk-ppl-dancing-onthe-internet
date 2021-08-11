@@ -35,10 +35,12 @@ const changeBg = function(){
 	if (7 <= hours && hours < 20){
 	
 	videobg.appendChild(sunny)
+	document.body.classList.add('day')
 	
 	} else {
 
 		videobg.appendChild(starry)
+		document.body.classList.add('night')
 	
 	
 	}

@@ -82,7 +82,7 @@ ol{
 
   align-items: center;
   position: relative;
-  margin: 3em 20%;
+  margin: 1em 15%;
   padding-top: 2em;
 
 
@@ -114,7 +114,7 @@ max-width: 40vw;
 }
 .credits{
    grid-area: 3 / 1 / 4 / 2;
-   max-width: 40vw;
+   width: 40vw;
    margin-left: 20em;
 
 }
@@ -135,12 +135,15 @@ max-width: 40vw;
 }
 @media only screen and (max-width: 675px){
 
-body{
-
-  object-fit: cover;
-  background-image: url(./assets/clouds.jpg);
+.day{
+   object-fit: cover;
+  background-image: url(./assets/cloudy.jpg);
 }
+.night{
+    object-fit: cover;
+    background-image: url(./assets/starry-sky.jpg);
 
+}
 #video-bg{
 display: none;
 }
@@ -169,6 +172,10 @@ display: none;
 
 .info-text{
   font-size: 1em;
+}
+
+.credits{
+ width: 90vw;
 }
 
 #folderThree,
