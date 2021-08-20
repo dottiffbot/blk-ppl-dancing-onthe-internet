@@ -39,7 +39,7 @@ header{
   height: 10vmin;
   z-index: 2;
   display: flex;
-  margin: 1em;
+  margin: 0.5em 1em 0;
   justify-content: space-between;
 }
 
@@ -69,6 +69,12 @@ ol{
   border: 1px solid black;
 }
 
+.about-cont{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .aboutGrid{
 
@@ -82,7 +88,8 @@ ol{
 
   align-items: center;
   position: relative;
-  margin: 1em 15%;
+  /*margin: 1em 15%;*/
+  margin: 5em auto;
   padding-top: 2em;
 
 
