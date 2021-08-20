@@ -4,7 +4,7 @@ const iconCont = document.querySelector('.icon')
 const currentDate = new Date()
 const hours = currentDate.getHours()
 
-const dayVideo = "https://cdn.glitch.com/039decf5-b783-4bb1-8c23-f6aa9c13e1b2%2FSkyAndCloudsh264.mp4?v=1626890284406"
+const dayVideo = "./assets/SkyAndCloudsh264.mp4"
 const nightVideo = "https://cdn.glitch.com/039decf5-b783-4bb1-8c23-f6aa9c13e1b2%2Fstars.mp4?v=1628287039466"
 
 const dayIcon = "./assets/sun-icon.png"
@@ -23,7 +23,7 @@ const sunny = document.createElement('video')
 		sunny.loop = true
 
 const starry = document.createElement('video')
-		starry.src = nightVideo
+		starry.src = dayVideo
 		starry.autoplay = true
 		starry.loop = true
 

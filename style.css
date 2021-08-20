@@ -50,6 +50,8 @@ body{
   top: 0;
   left: 0;
   z-index: 1;
+  display: block;
+
 }
 
 img{
@@ -893,8 +895,7 @@ li:nth-child(10) img{
       max-width:70vw;
     }
 
-    }
+  
 
 
-}
 
