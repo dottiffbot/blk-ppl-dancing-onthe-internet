@@ -23,7 +23,7 @@ const sunny = document.createElement('video')
 		sunny.loop = true
 
 const starry = document.createElement('video')
-		starry.src = dayVideo
+		starry.src = nightVideo
 		starry.autoplay = true
 		starry.loop = true
 

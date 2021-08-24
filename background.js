@@ -25,7 +25,7 @@ const sunny = document.createElement('video')
 		sunny.playsinline = true
 
 const starry = document.createElement('video')
-		starry.src = dayVideo
+		starry.src = nightVideo
 		starry.autoplay = true
 		starry.loop = true
 		starry.preload = true

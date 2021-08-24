@@ -144,7 +144,7 @@ max-width: 40vw;
 
 .day{
    object-fit: cover;
-  background-image: url(./assets/cloudy.jpg);
+  background-image: url(./assets/clouds-still.png);
 }
 .night{
     object-fit: cover;
