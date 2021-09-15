@@ -420,6 +420,7 @@ li:nth-child(1) img{
  
   grid-row: 3 / span 1;
   grid-column: 1/ span 2;
+  z-index: 3;
   
 }
 
@@ -486,6 +487,7 @@ li:nth-child(7)  img{
 .archive-grid li:nth-child(8){
   grid-row: 3/ span 1;
   grid-column:  3 / span 3;
+  z-index: 4;
   
 }
 li:nth-child(8)  img{
@@ -518,19 +520,164 @@ li:nth-child(10) img{
 .archive-grid li:nth-child(11){
   grid-row: 1 / span 2;
   grid-column: 2 / span 2;
+  z-index: 4;
 }
-li:nth-child(10) img{
+li:nth-child(11) img{
+  max-width: 250px;
+}
+
+/*house*/
+
+.archive-grid li:nth-child(12){
+  grid-row: 1 / span 1;
+  grid-column: 1 / span 2;
+}
+li:nth-child(12) img{
+  max-width: 400px;
+}
+
+  /*out-stretched hands*/
+
+.archive-grid li:nth-child(13){
+  grid-row: 1 / span 1;
+  grid-column: 4 / span 2;
+}
+li:nth-child(13) img{
   max-width: 200px;
 }
 
+  /*brown1*/
 
-
+.archive-grid li:nth-child(14){
+  grid-row: 3 / span 1;
+  grid-column: 5 / span 3;
+}
+li:nth-child(14) img{
+  max-width: 300px;
+}
 
 .archive-grid li:hover{
   z-index: 6;
   transform:scale(1.2);
   filter: drop-shadow(0 0 10px black);
 }
+
+  /*brown2*/
+
+.archive-grid li:nth-child(15){
+  grid-row: 2 / span 1;
+  grid-column: 7 / span 1;
+}
+li:nth-child(15) img{
+  max-width: 100px;
+}
+  /*da warzone*/
+
+.archive-grid li:nth-child(16){
+  grid-row: 3 / span 1;
+  grid-column: 4 / span 2;
+}
+li:nth-child(16) img{
+  max-width: 300px;
+}
+
+ /*piano*/
+
+.archive-grid li:nth-child(17){
+  grid-row: 4 / span 2;
+  grid-column: 4 / span 3;
+  z-index: 4;
+}
+li:nth-child(17) img{
+  max-width: 300px;
+}
+
+
+ /*bw painting*/
+
+.archive-grid li:nth-child(18){
+  grid-row: 3 / span 2;
+  grid-column: 2 / span 2;
+
+}
+li:nth-child(18) img{
+  max-width: 300px;
+}
+
+ /*jazz*/
+
+.archive-grid li:nth-child(23){
+  grid-row: 3 / span 1;
+  grid-column: 7 / span 2;
+  z-index: 3;
+}
+li:nth-child(23) img{
+  max-width: 200px;
+}
+
+ /*shoe tap man*/
+
+.archive-grid li:nth-child(20){
+  grid-row: 1 / span 1;
+  grid-column: 6 / span 2;
+
+}
+li:nth-child(20) img{
+  max-width: 200px;
+}
+
+ /*couple dancing*/
+
+.archive-grid li:nth-child(21){
+  grid-row: 5 / span 2;
+  grid-column: 2 / span 1;
+  z-index: 4;
+
+}
+li:nth-child(21) img{
+  max-width: 200px;
+}
+
+ /*turnt guys*/
+
+.archive-grid li:nth-child(22){
+  grid-row: 4 / span 1;
+  grid-column: 7 / span 1;
+
+}
+li:nth-child(22) img{
+  max-width: 200px;
+}
+
+
+
+ /*gmas*/
+
+.archive-grid li:nth-child(19){
+  grid-row: 4 / span 3;
+  grid-column: 5 / span 3;
+}
+li:nth-child(19) img{
+  max-width: 400px;
+}
+
+
+ /*party painting*/
+
+.archive-grid li:nth-child(24){
+  grid-row: 4 / span 2;
+  grid-column: 1 / span 2;
+}
+li:nth-child(24) img{
+  max-width: 400px;
+}
+
+.archive-grid li:hover{
+  z-index: 6;
+  transform:scale(1.2);
+  filter: drop-shadow(0 0 10px black);
+}
+
 
 
 /*POPUP */
@@ -584,6 +731,7 @@ li:nth-child(10) img{
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  overflow-y: scroll;
 
 }
 
@@ -597,6 +745,8 @@ padding: 2em;
   align-items: center;
   justify-content: space-between;
   max-width: 50vw;
+  max-height: 70wh;
+  overflow-y: scroll;
 }
 
 .entry-info a:hover{
@@ -614,6 +764,7 @@ filter: drop-shadow(0 0 8px #5797F7);
   padding: 0.5em 2.5em;
 
 
+
 }
 .description{
   color:white;
@@ -621,6 +772,9 @@ filter: drop-shadow(0 0 8px #5797F7);
   font-size: 1.25em;
   text-justify: inter-word;
   text-align: justify;
+  max-height: 70vh;
+  overflow-y: scroll;
+
 }
 .sub{
   text-align: center;
@@ -628,6 +782,11 @@ filter: drop-shadow(0 0 8px #5797F7);
   font-style: italic;
   padding: 2em 0;
 
+}
+
+.longChain{
+  text-align: center;
+  margin-left: 18vw;
 }
 
 .video-edition::after{

@@ -51,8 +51,10 @@ const changeBg = function(){
 	}
 }
 
+changeBg()
+
 setInterval(function(){
-	changeBg()
+	
 	
 }, 1000)
 
