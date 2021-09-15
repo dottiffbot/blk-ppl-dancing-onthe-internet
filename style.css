@@ -1025,6 +1025,146 @@ li:nth-child(10) img{
   max-width: 200px;
 }
 
+/*house*/
+
+.archive-grid li:nth-child(12){
+  grid-row: 12 / span 1;
+  grid-column: 1 / span 1;
+}
+li:nth-child(12) img{
+  max-width: 200px;
+}
+
+  /*out-stretched hands*/
+
+.archive-grid li:nth-child(13){
+  grid-row: 13 / span 1;
+  grid-column: 1 / span 1;
+}
+li:nth-child(13) img{
+  max-width: 200px;
+}
+
+  /*brown1*/
+
+.archive-grid li:nth-child(14){
+  grid-row: 14 / span 1;
+  grid-column: 1 / span 1;
+}
+li:nth-child(14) img{
+  max-width: 200px;
+}
+
+
+  /*brown2*/
+
+.archive-grid li:nth-child(15){
+  grid-row: 15 / span 1;
+  grid-column: 1 / span 1;
+}
+li:nth-child(15) img{
+  max-width: 200px;
+}
+  /*da warzone*/
+
+.archive-grid li:nth-child(16){
+  grid-row: 16 / span 1;
+  grid-column: 1 / span 1;
+}
+li:nth-child(16) img{
+  max-width: 200px;
+}
+
+ /*piano*/
+
+.archive-grid li:nth-child(17){
+  grid-row: 17 / span 1;
+  grid-column: 1 / span 1;
+
+}
+li:nth-child(17) img{
+  max-width: 200px;
+}
+
+
+ /*bw painting*/
+
+.archive-grid li:nth-child(18){
+  grid-row: 18 / span 1;
+  grid-column: 1 / span 1;
+
+}
+li:nth-child(18) img{
+  max-width: 200px;
+}
+
+ /*jazz*/
+
+.archive-grid li:nth-child(23){
+  grid-row: 23 / span 1;
+  grid-column: 1 / span 1;
+  z-index: 3;
+}
+li:nth-child(23) img{
+  max-width: 200px;
+}
+
+ /*shoe tap man*/
+
+.archive-grid li:nth-child(20){
+  grid-row: 20 / span 1;
+  grid-column: 1 / span 1;
+
+}
+li:nth-child(20) img{
+  max-width: 200px;
+}
+
+ /*couple dancing*/
+
+.archive-grid li:nth-child(21){
+  grid-row: 21 / span 1;
+  grid-column: 1 / span 1;
+
+}
+li:nth-child(21) img{
+  max-width: 200px;
+}
+
+ /*turnt guys*/
+
+.archive-grid li:nth-child(22){
+  grid-row: 22 / span 1;
+  grid-column: 1 / span 1;
+
+}
+li:nth-child(22) img{
+  max-width: 200px;
+}
+
+
+
+ /*gmas*/
+
+.archive-grid li:nth-child(19){
+  grid-row: 19 / span 1;
+  grid-column: 1 / span 1;
+}
+li:nth-child(19) img{
+  max-width: 200px;
+}
+
+
+ /*party painting*/
+
+.archive-grid li:nth-child(24){
+  grid-row: 24 / span 1;
+  grid-column: 1 / span 1;
+}
+li:nth-child(24) img{
+  max-width: 200px;
+}
+
 .row1,
 .row2{
   display: flex;
