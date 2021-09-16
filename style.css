@@ -1194,10 +1194,10 @@ li:nth-child(24) img{
 
 }
 
-@media screen and (-webkit-min-device-pixel-ratio:0) {
+/*@media screen and (-webkit-min-device-pixel-ratio:0) {
     .video-edition{
       max-width:70vw;
-    }
+    }*/
 
   
 
