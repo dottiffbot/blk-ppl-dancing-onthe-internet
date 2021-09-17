@@ -36,7 +36,7 @@ body{
   overflow-x: hidden;
   object-fit: cover;
   height: 100%;
-  display: grid;
+ /* display: grid;*/
 }
 
 .noscroll{
@@ -745,7 +745,7 @@ padding: 2em;
   align-items: center;
   justify-content: space-between;
   max-width: 50vw;
-  max-height: 70wh;
+  max-height: 70vh;
   overflow-y: scroll;
 }
 
@@ -832,11 +832,6 @@ cursor: url(https://cdn.glitch.com/039decf5-b783-4bb1-8c23-f6aa9c13e1b2%2Fpoint-
   margin: 50% 0;
 }
 
-.noscroll{
-  overflow-y: scroll;
-
-}
-
 .entry-container{
   flex-direction: column;
   text-align: center;
@@ -845,6 +840,7 @@ cursor: url(https://cdn.glitch.com/039decf5-b783-4bb1-8c23-f6aa9c13e1b2%2Fpoint-
 
 .entry-info{
   overflow-y: scroll;
+  max-width: 70vw;
 }
 
 .entry{
@@ -854,7 +850,12 @@ cursor: url(https://cdn.glitch.com/039decf5-b783-4bb1-8c23-f6aa9c13e1b2%2Fpoint-
 
 .entry-text{
   font-size: 2em;
-  padding: 0 0.5em;
+  padding: 0 0.25em;
+}
+
+.description{
+  font-size: 1em;
+  padding: 0.25em;
 }
 
 
@@ -872,6 +873,7 @@ font-size: 1.5em;
 }
 @media only screen and (max-width: 500px){
 
+  html, 
   body{
     overflow-x: hidden;
    
@@ -1181,6 +1183,8 @@ li:nth-child(24) img{
 
 #folderOne{
   width: 300px;
+  padding: 0;
+
 }
 
 
@@ -1188,16 +1192,15 @@ li:nth-child(24) img{
   font-size: 0.85em;
   letter-spacing: 0;
 }
-.folder-holder:hover{
-  transform: scale(1);
-}
+
+
 
 }
 
-/*@media screen and (-webkit-min-device-pixel-ratio:0) {
+@media screen and (-webkit-min-device-pixel-ratio:0) {
     .video-edition{
       max-width:70vw;
-    }*/
+    }
 
   
 
