@@ -141,6 +141,11 @@ max-width: 40vw;
   font-weight: bold;
 }
 @media only screen and (max-width: 675px){
+  
+  html,
+  body{
+    overflow-x: hidden;
+  }
 
 .day{
    object-fit: cover;

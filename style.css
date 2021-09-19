@@ -828,15 +828,30 @@ cursor: url(https://cdn.glitch.com/039decf5-b783-4bb1-8c23-f6aa9c13e1b2%2Fpoint-
 /* media queries */
 
 @media only screen and (max-width: 600px){
+
+  body{
+      -webkit-overflow-scrolling: touch;
+  }
 .about-vid{
   margin: 50% 0;
 }
+
 
 .entry-container{
   flex-direction: column;
   text-align: center;
   overflow-y: scroll;
+
 }
+ .archive-grid{
+  display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: repeat(24, 1fr);
+   /*repeat(auto-fit, minmax(280px, 1fr));*/
+   grid-gap: 1em;
+   margin-top: 3em;
+  
+  }
 
 .entry-info{
   overflow-y: scroll;
@@ -845,6 +860,7 @@ cursor: url(https://cdn.glitch.com/039decf5-b783-4bb1-8c23-f6aa9c13e1b2%2Fpoint-
 
 .entry{
   margin-top: 2em;
+  overflow-y: scroll;
 
 }
 
@@ -876,6 +892,7 @@ font-size: 1.5em;
   html, 
   body{
     overflow-x: hidden;
+    
    
   }
   .day{
@@ -894,14 +911,6 @@ font-size: 1.5em;
   header{
     z-index: 6;
     position: fixed;
-  }
-
-  .archive-grid{
-  display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-   grid-gap: 1em;
-   margin-top: 3em;
-   height: 100%;
   }
 
 
