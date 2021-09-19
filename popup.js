@@ -5,11 +5,13 @@ const body = document.querySelector("body")
 const entry = document.querySelectorAll(".entry-container")
 
 for (const pop of openPops){
-  pop.addEventListener('click', togglePop, bodyScrollLock.disableBodyScroll(entry))
+  pop.addEventListener('click', togglePop)
+  // , bodyScrollLock.disableBodyScroll(entry)
 }
 
 for (const close of closePops){
-  close.addEventListener('click', closePop, bodyScrollLock.enableBodyScroll(entry))
+  close.addEventListener('click', closePop)
+   // bodyScrollLock.enableBodyScroll(entry)
 }
 
 
