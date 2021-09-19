@@ -2,7 +2,7 @@
 const openPops = document.querySelectorAll("[data-open]")
 const closePops = document.querySelectorAll("[data-close]")
 const body = document.querySelector("body")
-const entry = document.querySelectorAll(".entry-info")
+const entry = document.querySelectorAll(".entry-container")
 
 for (const pop of openPops){
   pop.addEventListener('click', togglePop, bodyScrollLock.disableBodyScroll(entry))

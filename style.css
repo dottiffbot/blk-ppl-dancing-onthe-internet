@@ -26,6 +26,9 @@ body::-webkit-scrollbar {
 
 /* basic universal styles */ 
 
+.siteWrapper{
+  position: relative;
+}
 
 body{
 
@@ -850,6 +853,8 @@ cursor: url(https://cdn.glitch.com/039decf5-b783-4bb1-8c23-f6aa9c13e1b2%2Fpoint-
    /*repeat(auto-fit, minmax(280px, 1fr));*/
    grid-gap: 1em;
    margin-top: 3em;
+   overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
   
   }
 
@@ -892,8 +897,11 @@ font-size: 1.5em;
   html, 
   body{
     overflow-x: hidden;
-    
-   
+     
+  }
+
+  .siteWrapper{
+    overflow: hidden;
   }
   .day{
     background-image: url(./assets/clouds-still.png);

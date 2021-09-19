@@ -145,6 +145,7 @@ max-width: 40vw;
   html,
   body{
     overflow-x: hidden;
+     -webkit-overflow-scrolling: touch;
   }
 
 .day{
